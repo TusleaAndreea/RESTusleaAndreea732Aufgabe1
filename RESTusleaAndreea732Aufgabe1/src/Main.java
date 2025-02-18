@@ -75,6 +75,34 @@ public class Main {
 
                 .forEach((log) -> System.out.println(log.get("Datum") + ": " + log.get("Charaktername") + " - " + log.get("Beschreibung")));
 
-        
+        System.out.println("d) ");
+
+        FileWriter fileWriter = new FileWriter("gesammtzahl.txt");
+        BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
+
+        Map<String,Integer> stufen = logsList.stream()
+
+                .collect(Collectors.toMap(
+                        (log) -> log.get("Stufe"),
+
+                        (log) -> 1,
+                        Integer::sum
+                ));
+
+        stufen.keySet().stream()
+
+                .sorted((stufe1, stufe2) -> stufen.get(stufe2).compareTo(stufen.get(stufe1)))
+
+                .forEach((stufe) -> {
+                    try {
+                        bufferedWriter.write(stufe + "%" + stufen.get(stufe) + '\n');
+                    } catch (IOException e) {
+                        throw new RuntimeException(e);
+                    }
+                });
+
+        bufferedWriter.flush();
+        bufferedWriter.close();
+
     }
 }

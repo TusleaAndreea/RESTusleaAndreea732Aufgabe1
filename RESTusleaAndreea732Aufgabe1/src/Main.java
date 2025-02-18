@@ -59,6 +59,22 @@ public class Main {
                 .filter( (log) -> Double.parseDouble(log.get("Kraftpunkte")) > input)
                 .distinct()
                 .forEach( (log) -> System.out.println(log.get("Charaktername")));
+
+        System.out.println("c) ");
+
+        logsList.stream()
+                .filter( (log) -> log.get("Stufe").equals("Jonin"))
+                .sorted( (log1,log2) -> {
+
+                    DateTimeFormatter dateTimeFormatter = DateTimeFormatter.ofPattern("uuuu-MM-dd");
+                    LocalDate date1 = LocalDate.from(dateTimeFormatter.parse(log1.get("Datum")));
+                    LocalDate date2 = LocalDate.from(dateTimeFormatter.parse(log2.get("Datum")));
+
+                    return date2.compareTo(date1);
+                })
+
+                .forEach((log) -> System.out.println(log.get("Datum") + ": " + log.get("Charaktername") + " - " + log.get("Beschreibung")));
+
         
     }
 }

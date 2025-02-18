@@ -59,5 +59,6 @@ public class Main {
                 .filter( (log) -> Double.parseDouble(log.get("Kraftpunkte")) > input)
                 .distinct()
                 .forEach( (log) -> System.out.println(log.get("Charaktername")));
+        
     }
 }

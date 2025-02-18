@@ -1,0 +1,242 @@
+[
+  {
+    "Id": 1,
+    "Charaktername": "Konan",
+    "Stufe": "Kage",
+    "Beschreibung": "Hat einen gefährlichen Gegner besiegt",
+    "Datum": "2004-09-08",
+    "Kraftpunkte": 2667.78
+  },
+  {
+    "Id": 2,
+    "Charaktername": "Hiruzen Sarutobi",
+    "Stufe": "Chunin",
+    "Beschreibung": "Hat ein Jutsu gemeistert",
+    "Datum": "2008-03-12",
+    "Kraftpunkte": 2560.78
+  },
+  {
+    "Id": 3,
+    "Charaktername": "Gaara",
+    "Stufe": "Jonin",
+    "Beschreibung": "Hat einen Verbündeten gerettet",
+    "Datum": "2013-02-12",
+    "Kraftpunkte": 7035.22
+  },
+  {
+    "Id": 4,
+    "Charaktername": "Gaara",
+    "Stufe": "Kage",
+    "Beschreibung": "Hat eine geheime Mission erfolgreich abgeschlossen",
+    "Datum": "2009-11-09",
+    "Kraftpunkte": 1140.52
+  },
+  {
+    "Id": 5,
+    "Charaktername": "Gaara",
+    "Stufe": "Kage",
+    "Beschreibung": "Hat einen feindlichen Angriff abgewehrt",
+    "Datum": "2018-12-13",
+    "Kraftpunkte": 3893.89
+  },
+  {
+    "Id": 6,
+    "Charaktername": "Kankuro",
+    "Stufe": "Chunin",
+    "Beschreibung": "Hat eine Falle für den Feind aufgestellt",
+    "Datum": "2008-05-23",
+    "Kraftpunkte": 8675.15
+  },
+  {
+    "Id": 7,
+    "Charaktername": "Sakura Haruno",
+    "Stufe": "Genin",
+    "Beschreibung": "Hat ein Jutsu gemeistert",
+    "Datum": "2002-10-03",
+    "Kraftpunkte": 8525.7
+  },
+  {
+    "Id": 8,
+    "Charaktername": "Danzo Shimura",
+    "Stufe": "Genin",
+    "Beschreibung": "Hat einen Spion enttarnt",
+    "Datum": "2016-03-12",
+    "Kraftpunkte": 7302.17
+  },
+  {
+    "Id": 9,
+    "Charaktername": "Naruto Uzumaki",
+    "Stufe": "Chunin",
+    "Beschreibung": "Hat einen feindlichen Angriff abgewehrt",
+    "Datum": "2004-04-16",
+    "Kraftpunkte": 139.64
+  },
+  {
+    "Id": 10,
+    "Charaktername": "Neji Hyuga",
+    "Stufe": "Genin",
+    "Beschreibung": "Hat einen feindlichen Angriff abgewehrt",
+    "Datum": "2015-04-25",
+    "Kraftpunkte": 7451.86
+  },
+  {
+    "Id": 11,
+    "Charaktername": "Danzo Shimura",
+    "Stufe": "Kage",
+    "Beschreibung": "Hat einen Überraschungsangriff überlebt",
+    "Datum": "2021-01-21",
+    "Kraftpunkte": 3554.24
+  },
+  {
+    "Id": 12,
+    "Charaktername": "Jiraiya",
+    "Stufe": "Chunin",
+    "Beschreibung": "Hat einen Verbündeten gerettet",
+    "Datum": "2011-08-22",
+    "Kraftpunkte": 9018.04
+  },
+  {
+    "Id": 13,
+    "Charaktername": "Sasuke Uchiha",
+    "Stufe": "Genin",
+    "Beschreibung": "Hat ein Jutsu gemeistert",
+    "Datum": "2009-12-05",
+    "Kraftpunkte": 9154.78
+  },
+  {
+    "Id": 14,
+    "Charaktername": "Deidara",
+    "Stufe": "Jonin",
+    "Beschreibung": "Hat eine geheime Mission erfolgreich abgeschlossen",
+    "Datum": "2004-10-23",
+    "Kraftpunkte": 5003.98
+  },
+  {
+    "Id": 15,
+    "Charaktername": "Kiba Inuzuka",
+    "Stufe": "Chunin",
+    "Beschreibung": "Hat einen feindlichen Angriff abgewehrt",
+    "Datum": "2021-01-17",
+    "Kraftpunkte": 2405
+  },
+  {
+    "Id": 16,
+    "Charaktername": "Orochimaru",
+    "Stufe": "Genin",
+    "Beschreibung": "Hat ein Jutsu gemeistert",
+    "Datum": "2012-01-26",
+    "Kraftpunkte": 4980.86
+  },
+  {
+    "Id": 17,
+    "Charaktername": "Konan",
+    "Stufe": "Kage",
+    "Beschreibung": "Hat eine wichtige Strategie entwickelt",
+    "Datum": "2018-05-24",
+    "Kraftpunkte": 8891.53
+  },
+  {
+    "Id": 18,
+    "Charaktername": "Gaara",
+    "Stufe": "Genin",
+    "Beschreibung": "Hat einen Verbündeten gerettet",
+    "Datum": "2013-07-10",
+    "Kraftpunkte": 347.39
+  },
+  {
+    "Id": 19,
+    "Charaktername": "Kankuro",
+    "Stufe": "Chunin",
+    "Beschreibung": "Hat ein Jutsu gemeistert",
+    "Datum": "2018-07-16",
+    "Kraftpunkte": 7928.61
+  },
+  {
+    "Id": 20,
+    "Charaktername": "Tsunade",
+    "Stufe": "Chunin",
+    "Beschreibung": "Hat eine geheime Mission erfolgreich abgeschlossen",
+    "Datum": "2020-01-24",
+    "Kraftpunkte": 3347.91
+  },
+  {
+    "Id": 21,
+    "Charaktername": "Temari",
+    "Stufe": "Genin",
+    "Beschreibung": "Hat eine geheime Mission erfolgreich abgeschlossen",
+    "Datum": "2010-08-24",
+    "Kraftpunkte": 4701.79
+  },
+  {
+    "Id": 22,
+    "Charaktername": "Neji Hyuga",
+    "Stufe": "Kage",
+    "Beschreibung": "Hat eine wichtige Strategie entwickelt",
+    "Datum": "2011-04-23",
+    "Kraftpunkte": 3439.19
+  },
+  {
+    "Id": 23,
+    "Charaktername": "Kankuro",
+    "Stufe": "Genin",
+    "Beschreibung": "Hat eine geheime Mission erfolgreich abgeschlossen",
+    "Datum": "2010-05-10",
+    "Kraftpunkte": 5914.67
+  },
+  {
+    "Id": 24,
+    "Charaktername": "Hinata Hyuga",
+    "Stufe": "Kage",
+    "Beschreibung": "Hat einen Spion enttarnt",
+    "Datum": "2011-02-07",
+    "Kraftpunkte": 5196.99
+  },
+  {
+    "Id": 25,
+    "Charaktername": "Naruto Uzumaki",
+    "Stufe": "Jonin",
+    "Beschreibung": "Hat einen Verbündeten gerettet",
+    "Datum": "2017-04-07",
+    "Kraftpunkte": 4934.38
+  },
+  {
+    "Id": 26,
+    "Charaktername": "Hashirama Senju",
+    "Stufe": "Kage",
+    "Beschreibung": "Hat einen Verbündeten gerettet",
+    "Datum": "2007-10-27",
+    "Kraftpunkte": 1123.77
+  },
+  {
+    "Id": 27,
+    "Charaktername": "Gaara",
+    "Stufe": "Chunin",
+    "Beschreibung": "Hat einen Verbündeten gerettet",
+    "Datum": "2011-08-26",
+    "Kraftpunkte": 1640.34
+  },
+  {
+    "Id": 28,
+    "Charaktername": "Gaara",
+    "Stufe": "Kage",
+    "Beschreibung": "Hat eine Falle für den Feind aufgestellt",
+    "Datum": "2007-08-10",
+    "Kraftpunkte": 4957.24
+  },
+  {
+    "Id": 29,
+    "Charaktername": "Minato Namikaze",
+    "Stufe": "Jonin",
+    "Beschreibung": "Hat einen Spion enttarnt",
+    "Datum": "2020-03-07",
+    "Kraftpunkte": 4142.54
+  },
+  {
+    "Id": 30,
+    "Charaktername": "Shikamaru Nara",
+    "Stufe": "Kage",
+    "Beschreibung": "Hat einen Überraschungsangriff überlebt",
+    "Datum": "2000-08-29",
+    "Kraftpunkte": 122.17
+  }
+]

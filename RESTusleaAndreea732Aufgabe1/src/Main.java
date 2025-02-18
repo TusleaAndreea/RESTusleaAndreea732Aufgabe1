@@ -45,7 +45,19 @@ public class Main {
             data[1] = data[1].trim();
             currentLog.put(data[0], data[1]);
             line = bufferedReader.readLine();
-        }
 
+        }
+        System.out.println("b) ");
+
+
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Bitte gib eine Zahl: ");
+        Double input = Double.parseDouble(scanner.nextLine());
+
+        logsList.stream()
+                .filter( (log) -> Double.parseDouble(log.get("Kraftpunkte")) > input)
+                .distinct()
+                .forEach( (log) -> System.out.println(log.get("Charaktername")));
     }
 }
